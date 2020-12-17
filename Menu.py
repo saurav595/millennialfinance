@@ -1,4 +1,4 @@
-def menu() -> int:
+def menu():
     '''
     Function - To print menu options
     Parameters - None
@@ -15,7 +15,7 @@ def menu() -> int:
         7 - Generate personal budget \n \
         0 - Quit \n")
 
-    selected_option = int(input("Select your option: "))
+    selected_option = input("Select your option: ")
 
     return selected_option
 
